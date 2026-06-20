@@ -53,7 +53,10 @@ This project provides a simplified approach to understanding price behaviour usi
 - This makes interpolation a reasonable baseline approach for short-term estimation
 - The model captures general trends but not abrupt market shocks
 
----
+---## 💡 Advanced Insight
+
+Despite using a simple linear interpolation approach, the model is able to capture the underlying continuity in natural gas price movements. This suggests that, in the absence of major external shocks, historical price structure alone can provide a reasonable baseline for short-term forecasting in commodity markets.
+This highlights the importance of time-series structure in financial datasets, even when advanced machine learning models are not applied.
 
 ## ⚠️ Limitations
 - Does not incorporate external factors (weather, geopolitical events, supply disruptions)
